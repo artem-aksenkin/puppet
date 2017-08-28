@@ -1,4 +1,4 @@
 #!/bin/bash
 yum install -y puppet
-echo "192.168.56.100 puppetserver" >> /etc/hosts
+echo "192.168.56.100 puppetserver.minsk.epam.com" >> /etc/hosts
 #ping -c 60 chefserver > /dev/null 2>&1
