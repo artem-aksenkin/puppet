@@ -1,0 +1,5 @@
+<%- |n String  $facts['osfamily'],
+| -%>
+# index.html: Managed by puppet.
+
+<html><h1>Hello from <%= $facts['osfamily'] %></h1></html>
